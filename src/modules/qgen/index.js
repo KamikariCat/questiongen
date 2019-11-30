@@ -48,7 +48,7 @@ export default class QuestionGenerator extends Component {
     render() {
         return(
             <Container style={ContainerStyle}>
-                <h1>Question generator</h1>
+                <h1>Генератор вопросов для канала "Вопросик"</h1>
                 <Grid container spacing={3}>
                     <Grid item xs={12} lg={6} md={8} sm={10}>
                         <Creation create={this.createQuestion.bind(this)}/>

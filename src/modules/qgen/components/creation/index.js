@@ -50,7 +50,7 @@ export default function Creation (props) {
             <TextField
                 required
                 id="outlined-required"
-                label="Index"
+                label="Текст вопроса"
                 margin="normal"
                 variant="outlined"
                 value={question}
@@ -70,7 +70,7 @@ export default function Creation (props) {
                 <TextField
                     required
                     id="outlined-required"
-                    label="Option"
+                    label="Текст варианта"
                     margin={"normal"}
                     variant="outlined"
                     value={option}
@@ -90,7 +90,7 @@ export default function Creation (props) {
                     </p>
                 );
             })}
-            <Button variant={"contained"} color={"primary"} onClick={createQuestion}>Create Index</Button>
+            <Button variant={"contained"} color={"primary"} onClick={createQuestion}>Создать вопрос</Button>
         </Container>
     );
 }
