@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52f00c2a-a97b-40ad-928d-9e975c2b8019" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,8 +74,16 @@
       <workItem from="1574935961811" duration="4922000" />
       <workItem from="1574949975205" duration="319000" />
       <workItem from="1574950307081" duration="8618000" />
-      <workItem from="1575146620340" duration="318000" />
+      <workItem from="1575146620340" duration="1124000" />
     </task>
+    <task id="LOCAL-00001" summary="logos">
+      <created>1575147104142</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575147104142</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,7 +102,15 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="logos" />
+    <option name="LAST_COMMIT_MESSAGE" value="logos" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="465" y="140" key="CommitChangelistDialog2" timestamp="1575147103583">
+      <screen x="0" y="40" width="1680" height="1010" />
+    </state>
+    <state x="465" y="140" key="CommitChangelistDialog2/0.40.1680.1010@0.40.1680.1010" timestamp="1575147103583" />
     <state x="743" y="371" width="426" height="479" key="FileChooserDialogImpl" timestamp="1574960137253">
       <screen x="0" y="25" width="1920" height="1175" />
     </state>
@@ -123,6 +139,10 @@
       <screen x="0" y="25" width="1920" height="1175" />
     </state>
     <state x="810" y="533" width="292" height="154" key="VCS.ChangelistChooser/0.25.1920.1175/1920.0.1600.900@0.25.1920.1175" timestamp="1574953747336" />
+    <state x="432" y="277" key="Vcs.Push.Dialog.v2" timestamp="1575147106104">
+      <screen x="0" y="40" width="1680" height="1010" />
+    </state>
+    <state x="432" y="277" key="Vcs.Push.Dialog.v2/0.40.1680.1010@0.40.1680.1010" timestamp="1575147106104" />
     <state x="623" y="288" width="672" height="678" key="search.everywhere.popup" timestamp="1574959597432">
       <screen x="0" y="25" width="1920" height="1175" />
     </state>
