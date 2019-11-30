@@ -1,4 +1,6 @@
 import React, {useState} from "react";
+import 'emoji-mart/css/emoji-mart.css'
+import { Picker } from 'emoji-mart'
 import {
     Container,
     TextField,
@@ -14,6 +16,7 @@ export default function Creation (props) {
     const [option, setOption] = useState('');
 
     const [options, setOptions] = useState([]);
+    const [showEmoji, setShowEmoji] = useState(false);
 
     const addOption = (smile, text) => setOptions(options.concat([{ smile, text }]));
     const removeOption = index => setOptions(R.remove(index, 1, options));
@@ -45,6 +48,11 @@ export default function Creation (props) {
         clearAll();
     };
 
+    const setEmogi = emoji => {
+        setSmile(emoji);
+        setShowEmoji(false);
+    };
+
     return(
         <Container>
             <TextField
@@ -58,15 +66,17 @@ export default function Creation (props) {
             />
 
             <div style={{display: "flex", alignItems: "center", justifyContent: "space-between"}}>
-                <TextField
-                    required
-                    id="outlined-required"
-                    label="Emoji"
-                    margin={"normal"}
-                    variant="outlined"
-                    value={smile}
-                    onChange={e => setSmile(e.target.value)}
-                />
+                {showEmoji ? <Picker onSelect={emoji => setEmogi(emoji.native)}/> :
+                    <TextField
+                        required
+                        id="outlined-required"
+                        label="Emoji"
+                        margin={"normal"}
+                        variant="outlined"
+                        value={smile}
+                        onFocus={() => setShowEmoji(true)}
+                        onChange={e => setSmile(e.target.value)}
+                    />}
                 <TextField
                     required
                     id="outlined-required"
