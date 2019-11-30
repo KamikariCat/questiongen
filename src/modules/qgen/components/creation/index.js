@@ -32,14 +32,14 @@ export default function Creation (props) {
     const isQuestionReadyToCreate = options.length && question.length;
 
     const handleAddOption = (smile, text) => {
-        if (!isOptionReadyToAdd) return (alert("your option is not ready to add"));
+        if (!isOptionReadyToAdd) return (alert("Нельзя добвыить вариант"));
 
         addOption(smile, text); clearOptionInputs();
     };
 
     const createQuestion = () => {
         if (!isQuestionReadyToCreate)
-            return alert("You cannot create the question");
+            return alert("Вопрос не готов к созданию");
 
         props.create({name: question, options});
         clearAll();
